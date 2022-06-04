@@ -33,4 +33,4 @@ jobs:
       - name: installing surge
         run:  npm install --global surge
       - name: deploying using surge 
-        run:  surge ./build  http//long-term-tub.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run:  surge ./ long-term-tub.surge.sh --token ${{ secrets.SURGE_TOKEN }}
